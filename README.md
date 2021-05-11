@@ -17,15 +17,15 @@ This system is designed to help users track cryptocurrency prices. It uses app s
     └── trigger.json           # contains configuration details for trigger in app scripts
  
 # Data Models
-## Trigger
-### hour_frequency: The amount of time in hours between each job in which the trigger will run the serverless function. Example - 6
+## 1. Trigger
+### a. hour_frequency: The amount of time in hours between each job in which the trigger will run the serverless function. Example - 6
     
     {
 		“hour_frequency”: 6
     }
-## Crypto Currency List
-### crypto_symbol: The symbol for the cryptocurrency we’re tracking, based on the Coin Market Cap trading Symbol. Example - Shiba Inu Coin = “SHIB”, Bitcoin = “BTC”
-### users: A list of users and their preferences
+## 2. Crypto Currency List
+### a. crypto_symbol: The symbol for the cryptocurrency we’re tracking, based on the Coin Market Cap trading Symbol. Example - Shiba Inu Coin = “SHIB”, Bitcoin = “BTC”
+### b. users: A list of users and their preferences
 #### i. number_of_units: The amount of cryptocurrency owned by the user, based on the crypto_symbol. Example - 1000
 #### ii. target_price: The target price in which the system will notify the user. Example - 10000
 #### iii. contact: The point of contact to notify the user that the target_price has been reflected in the market. Example - “713218xxxx”
