@@ -1,0 +1,8 @@
+{
+    "Choose which function to run": "main",
+    "Which runs at deployment": "Head",
+    "Select event source": "Time-driven",
+    "Select type of time based trigger": "Minutes timer",
+    "Select minute interval": "Every 10 minutes",
+    "Failure notification settings": "Notify me immediately"
+}
